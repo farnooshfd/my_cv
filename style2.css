@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    background-color: whitesmoke;
+    color: black; 
+    text-align:center; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: darkblue;
+    font-style: italic;
+}
+
+h1{
+    font-style: italic;
+}
+    
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-link {
+    color:black 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font: message-box;
+  }
+  
+.removedot{
+    list-style-type: none;
+}
+
+
+.form-label {
+    font-weight: bold; /* Bold labels for better visibility */
+}
+
+iframe {
+    border-radius: 0.5rem; /* Rounded corners for iframes */
+    max-width: 100%; /* Make iframes responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.intro-text {
+    font-size:medium; /* Increase font size */
+    color: #333; /* Dark gray color */
+    line-height: 1.5; /* Improve line spacing */
+}
+
+
+

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farnoosh Fadakar - Personal Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  
+  <body class="p-3 border-0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.bootstrapt.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.bootstrapt.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.bootstrapt.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.bootstrapt.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      
+      <!-- Contact Form -->
+      <form action="/action_page.php"" method="post" class="row g-3">
+        <!-- Full Name Input -->
+        <div class="form-group">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- Age Input -->
+        <div class="form-group">
+          <label for="age" class="form-label">Age</label>
+          <input type="number" class="form-control" id="age" name="age" placeholder="Select your age" min="1" max="120" required>
+        </div>
+
+        <!-- Email Input -->
+        <div class="form-group">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+        </div>
+
+        <!-- Message Textarea -->
+        <div class="col-12">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <!-- Radio buttons: How did you hear about this page? -->
+        <div class="col-12">
+          <label class="form-label"><strong>How did you hear about my page?</strong></label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="google" name="source" value="Google">
+            <label class="form-check-label" for="google">Google</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="friend" name="source" value="Friends">
+            <label class="form-check-label" for="friend">Friends</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="linkedin" name="source" value="LinkedIn">
+            <label class="form-check-label" for="linkedin">LinkedIn</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="other" name="source" value="Other">
+            <label class="form-check-label" for="other">Other</label>
+          </div>
+        </div>
+        
+        <!-- Submit Button -->
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      Contact: <a href="mailto:farnooshfadakar99@gmail.com" class="text-white text-decoration-underline">farnooshfadakar99@gmail.com</a>
+    </footer>
+  </body>
+</html>
